@@ -6,12 +6,12 @@ import { ContentComponent } from './content/content.component';
 
 const routes: Routes = [
   {
-    path:"profile",
-    component: ProfileComponent
-  },
-  {
     path:"personal-info",
     component: PersonalInfoComponent
+  },
+  {
+    path:"profile",
+    component: ProfileComponent
   },
   {
     path:"content",
